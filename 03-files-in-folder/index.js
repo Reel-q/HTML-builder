@@ -5,7 +5,6 @@ const path = require('path');
 const folderPath = path.join(__dirname, 'secret-folder');
 
 fs.readdir(folderPath, (error, files) => {
-  console.log(files);
   files.forEach((file) => {
     const filePath = path.join(folderPath, file);
 
