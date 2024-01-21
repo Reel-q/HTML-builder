@@ -1,4 +1,3 @@
-// const { stdin, stdout } = process;
 const fs = require('fs');
 const path = require('path');
 
